@@ -7,7 +7,7 @@ public class Main {
         int a = scan.nextInt();
         while (a!=7) {
             a = scan.nextInt();
-            if (a<7) System.out.println("Не верно. Выбери число больше.");
+            if (a<7) System.out.println("Не верно. Введи число больше.");
 
             else if (a>7) System.out.println("Попробуй ещё раз. Загаданное число меньше.");
 
